@@ -1,0 +1,133 @@
+body {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("i-turned-some-of-the-kingdom-hearts-patterns-into-v0-bdr5923c397d1.png");
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+section {
+    flex: 70%;
+    padding: 10px;
+}
+
+aside {
+    flex: 30%;
+    background-color: rgba(240, 240, 240, 0.9);
+    padding: 20px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+aside a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h3 {
+    font-family: 'Kingdom Hearts', sans-serif;
+    color: white;
+    font-size: 90px;
+    margin: 10px;
+    border: 2px solid transparent;
+}
+
+h2 {
+    color: white;
+    border: 2px solid transparent;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
+    margin-left: 650px;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+    border: 1px solid transparent;
+    padding: 10px;
+    width: 900px;
+    text-align: justify;
+    margin-left:  450px;
+}
+
+section img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+aside img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+section h1 {
+    font-size: 150px;
+    margin-left: 800px;
+    width: 100%;
+}
+
+aside h3 {
+    color: black;
+    font-size: 50px;
+}
+
+.container {
+    display: flex; 
+    margin: 20px; 
+    flex-wrap: wrap;
+}
